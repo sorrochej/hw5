@@ -90,6 +90,7 @@ window.addEventListener('DOMContentLoaded', function() {
       let html = renderRides(allRidesArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#all-filter')
+      //filterReset.innerHTML = ''
         }
       }
   })
@@ -118,6 +119,7 @@ window.addEventListener('DOMContentLoaded', function() {
       let html = renderRides(poolArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#noober-pool-filter')
+      //filterReset.innerHTML = ''
         }
       }
   })
@@ -147,6 +149,7 @@ window.addEventListener('DOMContentLoaded', function() {
       let html = renderRides(purpleArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#noober-purple-filter')
+      //filterReset.innerHTML = ''
         }
       }
   })
@@ -176,6 +179,7 @@ let xlButton = document.querySelector('#noober-xl-filter')
       let html = renderRides(xlArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#noober-xl-filter')
+      //filterReset.innerHTML = ''
         }
       }
   })
@@ -203,6 +207,7 @@ let xlButton = document.querySelector('#noober-xl-filter')
       let html = renderRides(xArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#noober-x-filter')
+      //filterReset.innerHTML = ''
         }
       }
   })
@@ -229,6 +234,7 @@ let xlButton = document.querySelector('#noober-xl-filter')
       let html = renderRides(purpleArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#noober-x-filter')
+      //filterReset.innerHTML = ''
       
         }
       }
@@ -256,6 +262,7 @@ let xlButton = document.querySelector('#noober-xl-filter')
       let html = renderRides(poolArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#noober-pool-filter')
+      //filterReset.innerHTML = ''
       
         }
       }
@@ -285,6 +292,7 @@ let xlButton = document.querySelector('#noober-xl-filter')
       let html = renderRides(allRidesArray)
       rides.insertAdjacentHTML('beforeend', `${html}`)
       let filterReset = document.querySelector('#all-filter-filter')
+      //filterReset.innerHTML = ''
       
         }
       }
